@@ -7,10 +7,11 @@ var OPTIONS = [
   '"Let’s take a look"',
   'Tim cook gets on stage at least twice',
   'A new iPhone is announced',
-  'New headphones are announced',
+  'A collaboration with Sonos is announced',
+  'New headphones (EarPods / AirPods) are announced',
   'A photo is taken on stage using an iPhone',
   'Battery life is improved for a product',
-  'Tim Cook talks about incredible iPad sales',
+  'Tim Cook touts incredible iPad sales',
   'Johnny Ive\'s voice is used in a video',
   '"Best iPhone yet"',
   'Video pans over Apple Executives sitting in the front row',
@@ -20,8 +21,11 @@ var OPTIONS = [
   'Tim Cook says the word "excited"',
   'A celebrity (athlete, musician, etc.) is involved in the keynote',
   'Tim Cook thanks everyone for attending',
+  'Demo of a game to show off new graphics hardware',
+  'Tim Cook thanks employees who participated in the launch'
   'A product or service will get launched into a new country',
   'A slide with logos of Fortune-500 companies is shown',
+  'New retail store are announced',
   // TODO: GET BETTER ONES
   'Something forcing you to spend more money is announced',
   '"The future of television"'
