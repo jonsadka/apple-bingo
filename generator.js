@@ -1,29 +1,30 @@
 var OPTIONS = [
-  '"...to tell you all about it"',
+  '"To tell you all about it"',
   '"iPhone 7 and 7 Plus"',
-  '"...for the first time"',
+  '"For the first time"',
   '"I’d like to invite"',
-  '"The future of television"',
   '"Let me show it to you"',
   '"Let’s take a look"',
   'Tim cook gets on stage at least twice',
   'A new iPhone is announced',
   'New headphones are announced',
-  'Something forcing you to spend more money is announced',
   'A photo is taken on stage using an iPhone',
   'Battery life is improved for a product',
-  'Tim Cook talks about how amazing iPad sales have been',
-  'A video featuring Johnny Ive\'s voice gets played',
+  'Tim Cook talks about incredible iPad sales',
+  'Johnny Ive\'s voice is used in a video',
   '"Best iPhone yet"',
-  'Video pan over of Apple Executives sitting in the front row',
-  'Announce new color(s) for the iPhone',
-  'New bands are announce for the Apple Watch',
+  'Video pans over Apple Executives sitting in the front row',
+  'New color(s) for the iPhone are announced',
+  'New Apple Watch bands are announced',
   'Somebody demos something with Siri',
   'Tim Cook says the word "excited"',
   'A celebrity (athlete, musician, etc.) is involved in the keynote',
   'Tim Cook thanks everyone for attending',
-  'A product or service gets rolled out into more new countries',
-  'We see a slide with Fortune-500 logos participating in Apple things'
+  'A product or service will get launched into a new country',
+  'A slide with logos of Fortune-500 companies is shown',
+  // TODO: GET BETTER ONES
+  'Something forcing you to spend more money is announced',
+  '"The future of television"'
 ]
 
 var NUM_TILES = 5;
@@ -44,7 +45,7 @@ function tableCreate() {
       var nextOption = randomizedOptions.pop();
       var td = document.createElement('td');
       if (rowNumber === 2 && colNumber === 2){
-        td.appendChild(document.createTextNode('Free Space'));
+        td.appendChild(document.createTextNode('Free'));
         td.setAttribute('class', 'locked');
       } else {
         td.appendChild(document.createTextNode(nextOption));

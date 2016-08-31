@@ -1,7 +1,7 @@
 *, *:after, *:before {
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
   -moz-box-sizing: border-box;    /* Firefox, other Gecko */
   box-sizing: border-box;         /* Opera/IE 8+ */
@@ -9,7 +9,7 @@
 
 body{
   overflow: hidden;
-  background-size: 18px 18px;
+  background-color: white;
 }
 
 #header {
@@ -17,6 +17,7 @@ body{
   color: white;
   padding-left: 25px;
   padding-bottom: 12px;
+  font-weight: 200;
 }
 
 h1 {
@@ -24,24 +25,52 @@ h1 {
   padding-bottom: 0px;
   font-size: 34px;
   font-weight: 100;
+  display: inline-block;
 }
 
-h4 {
-  color: white;
+.date {
+  display: inline-block;
+  font-size: 14px;
 }
 
 a:-webkit-any-link {
    text-decoration: none;
-   color: #0070c9;
+   color: RGB(90,200,250);
+}
+
+a:-webkit-any-link:hover {
+  text-decoration: underline;
 }
 
 .name {
-  color: #0070c9;
   position: absolute;
   right: 50px;
   top: 12px;
   text-align: right;
-  text-decoration: none;
+}
+
+.name:after, .name:before {
+  left: 110%;
+  top: 56%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.name:after {
+  border-color: rgba(213, 213, 213, 0);
+  border-left-color: #333333;
+  border-width: 5px;
+  margin-top: -5px;
+}
+.name:before {
+  border-color: rgba(245, 5, 5, 0);
+  border-left-color: RGB(90,200,250);
+  border-width: 6px;
+  margin-top: -6px;
 }
 
 table {
@@ -50,7 +79,6 @@ table {
 
 td {
   transition: all 0.5s ease;
-  /*font-size: 14px;*/
   color: #646464;
   border: 1px solid #646464;
   text-align:center;
@@ -69,14 +97,22 @@ td {
                                   not supported by any browser */
 }
 
+td:hover {
+  background-color: #F2F2F2;
+  /*border-color: #F2F2F2;*/
+}
+
 td.selected {
   color: white;
   border: 1px solid white;
-  background-color: #333333;
+  background-color: RGB(0,122,255);
 }
 
 td.locked {
+  padding: 0;
+  pointer-events: none;
   color: white;
-  border: 1px solid white;
-  background-color: #0070c9
+  border: 1px solid RGB(255,149,0);
+  background-color: RGB(255,149,0);
+  cursor: default;
 }
