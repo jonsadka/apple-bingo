@@ -26,9 +26,7 @@ var OPTIONS = [
   'A product or service will get launched into a new country',
   'A slide with logos of Fortune-500 companies is shown',
   'New retail store are announced',
-  // TODO: GET BETTER ONES
-  'Something forcing you to spend more money is announced',
-  '"The future of television"'
+  'One speaker is not wearing an Apple Watch'
 ]
 
 var NUM_TILES = 5;
