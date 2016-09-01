@@ -22,7 +22,7 @@ var OPTIONS = [
   'A celebrity (athlete, musician, etc.) is involved in the keynote',
   'Tim Cook thanks everyone for attending',
   'Demo of a game to show off new graphics hardware',
-  'Tim Cook thanks employees who participated in the launch'
+  'Tim Cook thanks employees who participated in the launch',
   'A product or service will get launched into a new country',
   'A slide with logos of Fortune-500 companies is shown',
   'New retail store are announced',
