@@ -26,13 +26,13 @@ var OPTIONS = [
   'New Apple Watch Bands Announced',
   'Somebody Uses Siri in a Demo',
   'Tim Cook Says the Word "Excited"',
-  'A Celebrity (Athlete, Musician, etc.) Partakes in the Keynote',
+  'A Celebrity (Athlete, Musician, etc.) Partakes in Keynote',
   'Tim Cook Thanks Everyone for Attending',
   'Demo of a Game to Show Off New Graphics Hardware',
   'Tim Cook Thanks Employees who Participated in Launch',
   'A Product or Service Launched in a New Country',
   'Slide with Logos of Fortune-500 Companies is Shown',
-  'New Retail Store(s) Snnounced',
+  'New Retail Store(s) Announced',
   'One Speaker is not Wearing an Apple Watch'
 ]
 
