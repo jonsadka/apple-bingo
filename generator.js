@@ -6,7 +6,7 @@ var OPTIONS = [
   '"Let me show it to you"',
   '"Let’s Take a Look"',
   '"Over One Billion iPhones Sold"',
-  'Craig Federighi Makes a Dad Koke',
+  'Craig Federighi Makes a Dad Joke',
   'New Apple Watch Announced',
   '"Incredibly Thin" Product is Described',
   'Tim Cook talks about Health and Privacy',
