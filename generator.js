@@ -9,8 +9,11 @@ var OPTIONS = [
   '"Let’s take a look." is said',
   '"To tell you all about it ..." is said',
   'A celebrity (athlete, musician, etc.) partakes in keynote',
+  'A grass roots app developer is featured',
+  'An educational app is featured',
   'Apple AirPower released',
   'Apple executive touts incredible App Store sales',
+  'Craig Federighi demos new Animoji',
   'Craig Federighi makes a dad joke',
   'Eddy Cue\'s sleeves are cuffed',
   'Johnny Ive voiceover in a video',
@@ -18,7 +21,6 @@ var OPTIONS = [
   'Mention of being environmentally friendly',
   'Mention of competitiors copying the iPhone X notch',
   'Mention or picture of the Golden State Warriors',
-  'New Animoji released',
   'New Apple Watch bands announced',
   'New iOS feature built with privacy in mind',
   'New product feature about accessibility',
@@ -34,6 +36,7 @@ var OPTIONS = [
   'Statistic about improved App Store sales due to redesign',
   'Statistic about money paid to developers',
   'Statistic saying how popular Apple Pay is',
+  'The oldest app developer is featured',
   'Tim Cook appears on stage at least three times',
   'Tim Cook mentions Duke',
   'Tim Cook says "excited" at least 7 times',
@@ -42,7 +45,7 @@ var OPTIONS = [
   'Tim Cook thanks everyone for attending',
   'Video pans over Apple Executives sitting in front row',
   'We\'re told how impactful Podcast improvements have been'
-]
+];
 
 var NUM_TILES = 5;
 var BORDER_SPACING = 10;
